@@ -1,5 +1,4 @@
-# MessengerDemo
-IPC：Messenger
+
 Messenger是一种轻量级的IPC方案，他的底层实现是AIDL，这个可以通过他的构造方法看到：mTarget = IMessenger.Stub.asInterface(target);
 
 1. 服务端进程
